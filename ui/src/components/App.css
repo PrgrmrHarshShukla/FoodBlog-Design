@@ -14,3 +14,9 @@
    z-index: 0;
    /* position: absolute; */
 }
+
+#main {
+   background-image: url("./svg6.svg");
+   background-position: right;
+   background-repeat: no-repeat;
+}
