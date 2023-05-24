@@ -3,3 +3,14 @@
 @tailwind utilities;
 
 
+#svg1 {
+   z-index: 20;
+   position: fixed;
+   transform: translateX(24vw);
+   transform: translateY(2vh);
+}
+
+#svg2 {
+   z-index: 0;
+   /* position: absolute; */
+}

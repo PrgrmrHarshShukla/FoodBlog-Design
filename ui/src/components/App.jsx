@@ -1,4 +1,5 @@
 import './App.css'
+// import noodles from "./noodles.png"
 import Landing from './Landing'
 
 function App() {
@@ -6,7 +7,10 @@ function App() {
   return (
     <div className="relative w-screen h-screen flex flex-col justify-center items-center m-auto bg-gray-800 overflow-hidden z-10">
       <Landing />
-      <img src="https://img.freepik.com/premium-photo/green-floating-leaves-flying-leaves-green-leaf-dancing-air-purifier-atmosphere-simple-main-picturex9_36051-838.jpg" className="fixed z-0 w-[40vw] h-40  translate-y-40 translate-x-60" />
+      {/* <svg id="svg1" height="80vh" width="50vw">
+            <circle cx="700" cy="150" r="200" fill="black" />
+      </svg> */}
+      {/* <img src={noodles} className="fixed w-1/6 -rotate-45 -translate-x-[15vw] translate-y-[29vh]" /> */}
 
     
 

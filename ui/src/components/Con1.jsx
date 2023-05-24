@@ -15,7 +15,7 @@ function Con1() {
       <p className="max-w-[300px] text-left text-sm mb-4 mt-4">Healthy Sashimi Tuna Bites with Sashimi grade </p>
       <p className="max-w-[300px] text-left text-sm mb-8">Tuna, 110 calories and 13g protein.</p>
 
-      <button className="text-[2vh] text-center text-white border-2 border-black rounded-full bg-black w-1/2 px-8 py-4">Download recipe</button>
+      <button className="text-[2vh] text-center text-white border-2 border-black rounded-full bg-black w-1/3 px-8 py-4">Download App</button>
 
 
    </div>

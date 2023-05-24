@@ -1,11 +1,21 @@
+import bowl from "./bowl.png"
+// import leaves from "./leaves.png"
+
 
 function Con2() {
+   
    return (
-      <div className=" flex flex-col justify-start overflow-hidden  w-1/2 h-[80vh]">
+      <div id="con2" className="relative flex flex-col justify-center overflow-hidden  w-1/2 h-[80vh]">
 
+         {/* <svg id="svg1" height="50vh" width="50vw">
+            <circle cx="500" cy="10" r="200" fill="black" />
+         </svg> */}
 
-         <img src="https://media.istockphoto.com/id/1322628932/photo/poke-bowl-with-salmon-avocado-quinoa-and-cucumber.jpg?s=612x612&w=0&k=20&c=dxyEXDzNYYjmKfNzi6QegEJQTbE-1jZZB4HtQKQABhs=" className=" w-80 h-80 z-10" id="bowl" />
+         <img src={bowl} className="absolute translate-x-10 translate-y-20 w-4/5 h-3/4 z-30" id="bowl" />
 
+         <svg id="svg2" height="100vh" width="100vw">
+            <circle cx="400" cy="600" r="400" fill="black" />
+         </svg>
   
 
 
