@@ -20,3 +20,9 @@
    background-position: right;
    background-repeat: no-repeat;
 }
+
+@media (max-width: 600px) {
+   #main {
+      background: white;
+   }
+}
